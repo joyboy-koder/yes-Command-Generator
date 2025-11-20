@@ -76,6 +76,8 @@ yes | sudo apt install package
 yes | sudo dnf install package
 ```
 
+live demo > (https://joyboy-koder.github.io/yes-Command-Generator/)
+
 ## Used for:
 
 Automation scripts
@@ -93,3 +95,8 @@ HTML
 CSS
 
 JavaScript
+
+
+## 👤 Author
+
+Built by KevTag — a self-taught developer building creative projects to help beginners understand tech more easily.
