@@ -34,3 +34,62 @@ hello
 hello
 hello
 ...
+```
+```bash
+If you run:
+
+yes
+
+it repeats:
+
+y
+y
+y
+...
+```
+❓ Why does it keep repeating?
+
+Because yes is designed to print output forever until you manually stop it by pressing:
+
+```bash
+CTRL + C
+```
+
+📦 Using yes During Package Installation
+
+yes is also used to automatically answer “yes” when Linux asks for confirmation during installations.
+
+Example:
+```bash
+yes | sudo apt install package
+```
+This is useful when the system asks:
+
+Do you want to continue? [Y/n]
+The yes command sends “y” repeatedly, allowing installations to continue without manual input.
+
+Other examples:
+
+```bash
+yes | sudo pacman -S package
+yes | sudo apt install package
+yes | sudo dnf install package
+```
+
+## Used for:
+
+Automation scripts
+
+CI/CD pipelines
+
+Large batch installations
+
+Hands-free terminal workflows
+
+## 🛠 Technologies Used
+
+HTML
+
+CSS
+
+JavaScript
